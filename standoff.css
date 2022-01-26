@@ -1,5 +1,32 @@
-header{
-    background-color: blue;
+body{
+    margin: 0;
 }
+
+header{
+    background-color: rgb(185, 167, 118);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-header a{
+color: aliceblue;
+text-decoration: none;   
+margin-left: 40px;
+margin-right: 40px;
+} 
+
+.a-header a:hover{
+   color: brown;
+   transition: 0.8s;
+} 
+
+header h2{
+  margin-right: 30px;
+}
+
+header h3{
+    margin-right: 30px;
+  }
 
 
